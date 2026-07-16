@@ -16,7 +16,7 @@ Computer Science student pursuing opportunities in data science and machine lear
 ## Standout Projects
 
 ### [Wiggy Wash](https://github.com/aheiner2001/wiggywash_beta)
-Flutter web SaaS for multi-location car washes with employee sales scorecards, live manager dashboards, and seat-based billing. Built a multi-tenant architecture on Firestore with role-based security rules, Stripe subscription billing (Checkout, Customer Portal, webhooks), and separate employee/manager authentication flows. [Live demo →](https://aheiner2001.github.io/wiggywash_beta/)
+Flutter web SaaS for multi-location car washes with employee sales scorecards, live manager dashboards, and seat-based billing. Built a multi-tenant architecture on Firestore with role-based security rules, Stripe subscription billing (Checkout, Customer Portal, webhooks), and separate employee/manager authentication flows. [See Readme for preview]
 
 ### [DiscGold](https://github.com/aheiner2001/discgold)
 Local-first disc golf course & round tracker for Android, built with Flutter. Features live GPS-based hole mapping on free satellite imagery, hole-by-hole scoring with player/history tracking, CSV import from UDisc, and JSON backup/restore — no accounts or servers required.
