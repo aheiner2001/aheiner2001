@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Resume — Aaron Heiner</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Work+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .resume-page {
+        max-width: 52rem;
+        margin: 0 auto;
+        padding: 4rem 1.5rem 6rem;
+      }
+
+      .resume-page h1 {
+        font-size: 2.5rem;
+      }
+
+      .resume-page .back-link {
+        display: inline-block;
+        margin-bottom: 2rem;
+        font-size: 0.875rem;
+        color: var(--muted-foreground);
+      }
+
+      .resume-page .back-link:hover {
+        color: var(--foreground);
+      }
+
+      .resume-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        margin-top: 2rem;
+      }
+
+      .resume-viewer {
+        margin-top: 2rem;
+        overflow: hidden;
+        border: 1px solid var(--border);
+        border-radius: calc(var(--radius) + 4px);
+        background: var(--secondary);
+      }
+
+      .resume-viewer iframe {
+        display: block;
+        width: 100%;
+        height: min(80vh, 68rem);
+        border: none;
+        background: #fff;
+      }
+
+      .resume-note {
+        margin-top: 1rem;
+        font-size: 0.8125rem;
+        color: var(--muted-foreground);
+      }
+
+      @media (max-width: 639px) {
+        .resume-viewer iframe {
+          height: 70vh;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="resume-page">
+      <a href="index.html" class="back-link">← Back to portfolio</a>
+      <h1>Aaron Heiner</h1>
+      <p class="lead" style="margin-top: 1rem">
+        Computer Science student · Provo / Orem, Utah
+      </p>
+
+      <div class="resume-actions">
+        <a href="resume.pdf" class="btn btn-primary" download>Download resume (PDF)</a>
+        <a href="resume-linkedin.pdf" class="btn btn-secondary" download>LinkedIn version (PDF)</a>
+        <a href="mailto:aaron.heiner.dev@gmail.com" class="btn btn-secondary">Email me</a>
+      </div>
+
+      <div class="resume-viewer">
+        <iframe src="resume.pdf" title="Aaron Heiner resume"></iframe>
+      </div>
+      <p class="resume-note">
+        If the preview does not load in your browser, use the download button above.
+      </p>
+    </main>
+  </body>
+</html>
