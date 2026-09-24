@@ -11,7 +11,7 @@ I build applications with the people who use them: fleet and inventory tools, ca
 | Project | What I built | Explore |
 | --- | --- | --- |
 | **Sunny** | Fleet and inventory software for a mobile detailing business: vehicle tracking, equipment, inspections, and maintenance workflows. | [Code](https://github.com/aheiner2001/sunny) |
-| **Wiggy Wash** | Flutter web app for car wash teams with employee scorecards, manager dashboards, staff requests, and multi-location support. Firebase powers authentication and data; Stripe supports billing. | [Code](https://github.com/aheiner2001/wiggywash_beta) · [Live demo](https://aheiner2001.github.io/wiggywash_beta/) |
+| **Wiggy Wash** | Flutter web app for car wash teams with employee scorecards, manager dashboards, staff requests, and multi-location support. Firebase powers authentication and data; Stripe supports billing. | [Code](https://github.com/aheiner2001/wiggywash_beta)|
 | **Downwinders Advocates** | Built a responsive advocacy website to help families learn about federal compensation claims and connected its intake flow to Lawmatics. | [Code](https://github.com/aheiner2001/Downwinders-Advocates) |
 | **Realm** | Contributed C# game and map scripts and worked on the website for an open-source RTS engine. | [Engine and website](https://github.com/speige/Realm) |
 | **Igniter** | Merged open-source contribution adding options for ignoring files during moves and configuring module locations, with tests. | [Merged PR](https://github.com/ash-project/igniter/pull/378) |
